@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icons8-agile-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Mensagens</title>
+</head>
+<body>
+
+    <header>
+        <img src="img/aluraLogo.svg" alt="Logo do site encriptador da Alura">
+    </header>
+
+    <main>
+        
+        <section class="mensagem">
+            <textarea class="mensagemPrincipal"  placeholder="Dígite seu texto aqui"></textarea>
+            <textarea class="resultado"  placeholder="Nenhuma mensagem encontrada..."></textarea>
+        </section>
+    
+        <section class="botao">
+            <p class="texto"><strong>⚠</strong> Apenas letras minúsculas e sem acento.</p>
+            <button class="botaoEncrip" onclick="botaoEncrip()">Criptografar</button>
+            <button class="botaoDescr" onclick="botaoDescr()">Descriptografar</button>
+            <button class="botaoCopiar" onclick="botaoCopiar()">Copiar</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="rodape">&copy; Copyright - Thamires Campos - 2023</p>
+    </footer>
+
+
+   <script src="script.js"></script> 
+</body>
+</html>

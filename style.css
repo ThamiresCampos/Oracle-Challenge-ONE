@@ -1,0 +1,112 @@
+body {
+    background:linear-gradient( white, rgb(10, 10, 212), rgb(8, 111, 245), rgb(84, 58, 231) ) ;
+}
+
+header, img {
+    width: 18%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.mensagem {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.mensagemPrincipal{
+    
+    width: 55em;
+    height: 30em;
+    margin-top: 4%;
+    margin-left: 30px; 
+    border: none;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(255, 249, 241);
+}
+
+.resultado {
+    width: 25em;
+    height: 30em;
+    margin-top: 4%;
+    margin-left: 35px; 
+    border: none;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(255, 249, 241);
+}
+
+.botaoEncrip {
+
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color:rgb(1, 58, 247);
+    border: solid 1px black;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+.botaoEncrip:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.botaoDescr {
+   
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color:rgb(223, 225, 231);
+    border: solid 1px black;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+.botaoDescr:hover {
+    background-color: rgb(1, 58, 247);
+    color: white;
+}
+
+.botaoCopiar {
+    margin-left: 40%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color:rgb(1, 58, 247);
+    border: solid 1px black;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+.botao-3:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.texto {
+    font-size: 15px;
+    margin-left: 40px;
+    padding-top: 20px;
+
+}
+
+.rodape {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    margin-top: 30px;
+}
